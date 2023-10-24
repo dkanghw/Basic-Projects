@@ -1,15 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Your Page Title</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <button
+        class="collasp navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <p>This is a basic HTML template.</p>
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2>My Portfolio</h2>
+        <p>
+          Vivamus tempor non erat nec tincidunt. Suspendisse et sapien turpis.
+          Proin facilisis feugiat felis quis viverra. Aenean commodo turpis
+          risus, eget ornare odio aliquam ut. Nam hendrerit neque vel porta
+          luctus. Phasellus eu semper lorem, a consectetur arcu. Sed efficitur
+          elit tortor, non auctor eros laoreet eget. Sed id sapien mauris. Nunc
+          sapien neque, vestibulum in malesuada non, blandit ac metus. Quisque
+          maximus nulla sit amet orci dapibus consequat in eu massa.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <pre>
+Email: fake@fakeemails.com 
+Phone number: 0123 456 789</pre
+        >
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      2023 Fake News | Portfolio
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
